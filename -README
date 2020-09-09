@@ -1,0 +1,41 @@
+username: iseralbr
+name : yisrael bar or ,id: 205462948
+
+explaintion:
+The program receives numbers and bulild a binary tree, and store each tree in an array of trees,
+and also can print the tree, or do a mirror to a tree, or check is highet, or print the smallest value, or check if its binary search tree,
+or check if two trees are the same
+
+
+to compile:
+press ctrl +shift+b
+
+to run the program: 
+press ctrl+f5
+
+the files of the program: 
+Ex4.cpp , Btree.cpp , Btree.h
+
+input:
+The program receives numbers in the following format:
+"to set a tree enter 'a number of tree' '0' "
+"to set a new head in the tree enter 'a number of tree' '1' 'value'"
+"to print the smallest value in the tree enter 'num of tree' '2'"
+"to know if its binary search tree enter 'num of tree' '4'"
+"to know the depth of the tree enter 'num of tree' '5'"
+"to to do a mirror to a tree enter 'num of tree' '6' "
+"to know if the trees are same enter 'num of tree' '7' 'second tree'"
+"to print a tree enter 'num of tree' '9' "
+"enter -1 to exit ".
+
+output: 
+(in case of  '2')
+print the smallest value
+(in case of '4')
+print 1 if it is a binary tree and 0 if its not
+(in case of  '5')
+print the max depth of the tree
+(in case of  '7')
+print 1 if the trees are the same and 0 if its not
+(in case of print '9')
+the tree will be printed in mathod of inorder.
